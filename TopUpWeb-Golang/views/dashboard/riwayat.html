@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrowGame</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/invoice.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                <img src="/assets/img/logo.png" alt="Game Top-Up Logo" style="width: 130px;">
+            </a>
+            <form class="d-none d-lg-flex mt-2">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <!-- Tombol toggler untuk tampilan mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/riwayat">Cek Pesanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Kontak Kami</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="invoice-container col-md-10 text-center">
+        <div class="invoice-box">
+            <h1>Check Invoice</h1>
+            <p>Pesanan Kamu tidak terdaftar meskipun Kamu yakin telah memesan? Harap tunggu 1-5 menit. Tetapi jika
+                pesanan masih belum muncul, Kamu bisa Hubungi Kami.</p>
+            <form action="/riwayat-invoice" method="post">
+                <label for="invoiceNumber">Invoice Number:</label>
+                <input type="number" id="invoiceNumber" name="invoiceNumber" required>
+                <button type="submit">Check</button>
+            </form>
+        </div>
+    </div>
+
+    <footer style="background-color: gray; padding: 20px;">
+        <div class="wrap">
+            <div class="footer-one">
+                <img src="/assets/img/logo.png" alt="Game Top-Up Logo" width="150px; margin-bottom :40px;">
+                <p>Arrow Game Store adalah tempat top up games yang aman, murah dan terpercaya.
+                    Proses cepat 1-3 Detik. Open 24 jam. Payment terlengkap. Jika ada kendala silahkan klik logo CS pada
+                    kanan bawah di website ini.</p>
+            </div>
+            <div class="footer-two">
+                <p class="footer-title">Payment</p>
+                <ul class="payment">
+                    <li><img src="/assets/img/alfamart.jpg" alt=""></li>
+                    <li><img src="/assets/img/indomaret.webp" alt=""></li>
+                    <li><img src="/assets/img/gopay.jpg" alt=""></li>
+                    <li><img src="/assets/img/dana.jpg" alt=""></li>
+                    <li><img src="/assets/img/shoppe.jpg" alt=""></li>
+                </ul>
+                <ul class="payment">
+                    <li><img src="/assets/img/mandiri.jpg" alt=""></li>
+                    <li><img src="/assets/img/bni.jpg" alt=""></li>
+                    <li><img src="/assets/img/bca.jpg" alt=""></li>
+                    <li><img src="/assets/img/bri.jpg" alt=""></li>
+                    <li><img src="/assets/img/QRIS.png" alt="" style="background-color: white; height: 34px;"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJPUFXl6uAqIm2hjI6iHHRoLs" crossorigin="anonymous"></script>
+</body>
+
+</html>

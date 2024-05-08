@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Form</title>
+</head>
+
+<body>
+
+    <h2>Invoice Form</h2>
+
+    <form action="/mlbb" method="POST">
+        <!-- Add CSRF Token for security -->
+        <input type="hidden" name="csrf_token" value="{{ .CSRFToken }}">
+
+        <label for="dataID">Data ID:</label>
+        <input type="text" id="dataID" name="dataID" required>
+
+        <br>
+
+        <label>Product:</label>
+        {{ range .Products }}
+        <input type="radio" id="product_{{ .ProductID }}" name="product_id" value="{{ .ProductID }}" required>
+        <label for="product_{{ .ProductID }}">{{ .Value }}</label>
+        {{ end }}
+        <br>
+
+        <label for="payment">Pilih Pembayaran</label>
+        <input type="text" id="payment" name="payment" required>
+
+        <br>
+
+        <label for="phone_number">Phone Number (WhatsApp):</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

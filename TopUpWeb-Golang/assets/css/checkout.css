@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif; 
+}
+
+.logo img {
+    width: 130px;
+    margin-right:  20px;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.content-box1 {
+    background-color: #3498db;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    align-items: center; 
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content-box2 {
+    background-color: #aed6f1;
+    border-top: 2px solid white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.container{
+    padding: 20px;
+}
+
+.content-box1 img{
+    border-radius: 5px;
+    width: 100px;
+    height: 38px;
+    background-color: white;
+}
+
+.countdown {
+    font-size: 26px;
+    color: black;
+    margin-top: 5px;
+}
+
+.table-container {
+    padding: 10px;
+}
+
+.table-container table {
+    width: 100%;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid white;
+    padding: 8px;
+}
+.table-container th,
+.table-container td {
+    font-weight: normal; /* Menghapus ketebalan pada teks kolom pertama */
+}
+
+.confirmation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aed6f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.image-upload {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.confirmation-button {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-one {
+    max-width: 40%;
+    text-align: left;
+}
+
+.footer-two {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start; /* Menggeser elemen ke sisi kiri */
+}
+
+.payment li {
+    margin-bottom: 10px;
+}
+
+.payment img {
+    border-radius: 0.3rem;
+    width: 6rem; /* Mengurangi lebar gambar */
+    height: auto; /* Menyesuaikan tinggi sesuai lebar */
+}
+
+footer {
+    margin-top: auto; /* Menempelkan footer di bagian bawah */
+    background-color: gray;
+    padding: 20px;
+}

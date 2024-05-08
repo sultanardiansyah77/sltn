@@ -1,0 +1,23 @@
+Arrow-Game
+├── assets
+│ ├── css
+│ │ ├── styles.css # Stylesheet untuk antarmuka permainan
+│ ├── img
+│ │ ├── arrow.png # Gambar yang digunakan dalam permainan
+│ ├── js
+│ │ ├── main.js # Logika JavaScript untuk permainan
+├── config
+│ ├── config.go # Pengaturan dan konfigurasi untuk permainan
+├── controllers
+│ ├── gamecontroller.go # Menangani permintaan HTTP terkait permainan
+├── entities
+│ ├── gameentities.go # Mendefinisikan struktur data terkait permainan (entities)
+├── models
+│ ├── gamemodels.go # Mengimplementasikan logika bisnis dan berinteraksi dengan basis data
+├── views
+│ ├── game
+│ │ ├── index.html # Templat HTML untuk halaman utama permainan
+│ │ ├── game.html # Templat HTML untuk antarmuka permainan
+├── go.mod # Berkas modul Go
+├── go.sum # Berkas checksum modul Go
+├── main.go # Titik masuk utama untuk aplikasi Arrow-Game

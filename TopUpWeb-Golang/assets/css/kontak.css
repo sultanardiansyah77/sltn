@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.logo img {
+    width: 130px;
+    margin-right:  20px;
+}
+
+.invoice-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 100px;
+}
+
+.invoice-box {* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mengatur tinggi minimum 100% dari viewport height */
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.invoice-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 100px;
+}
+
+.invoice-box {
+    color: white;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    background-color:gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.invoice-box h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.invoice-box p {
+    font-size: 10px;
+}
+.invoice-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #252525;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-one {
+    max-width: 40%;
+    text-align: left;
+}
+
+.footer-two {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start; /* Menggeser elemen ke sisi kiri */
+}
+
+.payment li {
+    margin-bottom: 10px;
+}
+
+.payment img {
+    border-radius: 0.3rem;
+    width: 6rem; /* Mengurangi lebar gambar */
+    height: auto; /* Menyesuaikan tinggi sesuai lebar */
+}
+
+footer {
+    margin-top: auto; /* Menempelkan footer di bagian bawah */
+    background-color: gray;
+    padding: 20px;
+}
+    color: white;
+    padding: 50px;
+    background-color:gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.invoice-box h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.invoice-box p {
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-one {
+    max-width: 40%;
+    text-align: left;
+}
+
+.footer-two {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start; /* Menggeser elemen ke sisi kiri */
+}
+
+.payment li {
+    margin-bottom: 10px;
+}
+
+.payment img {
+    border-radius: 0.3rem;
+    width: 6rem; /* Mengurangi lebar gambar */
+    height: auto; /* Menyesuaikan tinggi sesuai lebar */
+}
+
+footer {
+    margin-top: auto; /* Menempelkan footer di bagian bawah */
+    background-color: gray;
+    padding: 20px;
+}
